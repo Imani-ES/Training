@@ -9,9 +9,11 @@ contract Election {
     }
 
     //Store candidate    
-    mapping(uint =>Candidate) public candidates;
+    mapping(uint => Candidate) public candidates;
+    //mapping(string => Candidate) public candidates;
     //keep track of candidates
     uint public candidatesCount;
+    //string candadite_list[2] = ["Chicken","Pizza","Turkey"]
     //Constructor
     constructor () public {
         addCandidate("Chicken");
