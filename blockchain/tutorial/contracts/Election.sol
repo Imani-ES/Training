@@ -7,9 +7,10 @@ contract Election {
         string name;
         uint voteCount;
     }
-
     //Store candidate    
     mapping(uint => Candidate) public candidates;
+    //Voters
+    mapping(address => bool) public voters;
     //mapping(string => Candidate) public candidates;
     //keep track of candidates
     uint public candidatesCount;
@@ -23,8 +24,12 @@ contract Election {
         candidatesCount += 1;
         candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);
     }
-    function Elect (uint choice) public {
+    function vote(uint choice) public {
+        //record voter
+        voters[msg.sender] = true;
+
+        //record vote
         candidates[choice].voteCount += 1;
     }
-
+    
 }
