@@ -1,6 +1,6 @@
 pragma solidity >= 0.4.22 <0.9.0;
 
-uint constant TOTAL_TICKETS = 10;
+//uint constant TOTAL_TICKETS = 10;
 
 contract Tickets{
     
@@ -12,6 +12,7 @@ contract Tickets{
         uint price;
         address owner;
     }
+    uint constant public TOTAL_TICKETS = 10;
 
     Ticket[TOTAL_TICKETS] public tickets;
 
@@ -33,4 +34,5 @@ contract Tickets{
         tickets[ticket_id].owner = msg.sender;
     }
 
+    //function ticket_length() public {    }
 }

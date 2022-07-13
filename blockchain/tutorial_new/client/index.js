@@ -10,12 +10,28 @@ const contract = new web3.eth.Contract(contract_abi,CONTRACT_ADDRESS);
 
 let account;
 
-const account_El = document.getElementById('account')
+const account_El = document.getElementById('account');
+const tickets_El = document.getElementById('tickets');
 
+const refreshTickets = async () => {
+    tickets_El.innerHTML = "Fetching Tickets..."
+    
+    const TOTAL_TICKETS = await contract.methods.TOTAL_TICKETS;
+    console.log(TOTAL_TICKETS)
+
+    for (let i = 0; i< 10; i++){
+        const t = await contract.methods.tickets(i).call();
+        console.log("Got ticket" + t)        
+    }
+}
 const main = async () => {
+    
+    account_El.innerText = "Connecting Wallet...";
     const accounts = await web3.eth.requestAccounts();
     account = accounts[0];
-    account_El.innerText = account
+    account_El.innerText = account;
+    console.log(contract)
+    await refreshTickets();
 };
 
 main();
