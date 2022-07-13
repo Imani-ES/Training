@@ -11,6 +11,7 @@ const contract = new web3.eth.Contract(contract_abi,CONTRACT_ADDRESS);
 let account;
 
 const account_El = document.getElementById('account')
+
 const main = async () => {
     const accounts = await web3.eth.requestAccounts();
     account = accounts[0];
