@@ -12,7 +12,7 @@ contract Tickets{
         uint price;
         address owner;
     }
-    uint constant public TOTAL_TICKETS = 10;
+    uint constant public TOTAL_TICKETS = 11;
 
     Ticket[TOTAL_TICKETS] public tickets;
 

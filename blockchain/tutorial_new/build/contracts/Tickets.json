@@ -79,9 +79,9 @@
       "payable": true
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"TOTAL_TICKETS\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"ticket_id\",\"type\":\"uint256\"}],\"name\":\"buyTicket\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"tickets\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"price\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Tickets.sol\":\"Tickets\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Tickets.sol\":{\"keccak256\":\"0x1c70f69430fe5f10ff2c999e1e4a63aca4ff8f7d79c4f5dc866d15eb107598a1\",\"urls\":[\"bzz-raw://7ec8065698fd795a1fc40cf14d0ef87fd7e32b7fabc578d1c254601cf1c7ac83\",\"dweb:/ipfs/QmZe21WXc1Z21E92X28fH8jQyjF9t7s6xXxHWVYXTUeVVZ\"]}},\"version\":1}",
-  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555034801561005057600080fd5b5060005b600a81101561012a57600a8161006a9190610169565b662386f26fc1000061007c91906101c3565b600182600a81106100905761008f6101f7565b5b600302016001018190555080600182600a81106100b0576100af6101f7565b5b60030201600001819055506000600182600a81106100d1576100d06101f7565b5b6003020160020160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506001816101239190610226565b9050610054565b5061027c565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600061017482610130565b915061017f83610130565b9250817fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff04831182151516156101b8576101b761013a565b5b828202905092915050565b60006101ce82610130565b91506101d983610130565b9250828210156101ec576101eb61013a565b5b828203905092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b600061023182610130565b915061023c83610130565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff038211156102715761027061013a565b5b828201905092915050565b61040b8061028b6000396000f3fe60806040526004361061003f5760003560e01c806350b447121461004457806367dd74ca146100835780638da5cb5b1461009f578063afbd1782146100ca575b600080fd5b34801561005057600080fd5b5061006b600480360381019061006691906102bc565b6100f5565b60405161007a93929190610339565b60405180910390f35b61009d600480360381019061009891906102bc565b610145565b005b3480156100ab57600080fd5b506100b4610258565b6040516100c19190610370565b60405180910390f35b3480156100d657600080fd5b506100df61027c565b6040516100ec919061038b565b60405180910390f35b600181600a811061010557600080fd5b600302016000915090508060000154908060010154908060020160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905083565b600a81108015610156575060008110155b61015f57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff16600182600a811061018b5761018a6103a6565b5b6003020160020160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16146101d357600080fd5b600181600a81106101e7576101e66103a6565b5b60030201600101543410156101fb57600080fd5b33600182600a81106102105761020f6103a6565b5b6003020160020160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600a81565b600080fd5b6000819050919050565b61029981610286565b81146102a457600080fd5b50565b6000813590506102b681610290565b92915050565b6000602082840312156102d2576102d1610281565b5b60006102e0848285016102a7565b91505092915050565b6102f281610286565b82525050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000610323826102f8565b9050919050565b61033381610318565b82525050565b600060608201905061034e60008301866102e9565b61035b60208301856102e9565b610368604083018461032a565b949350505050565b6000602082019050610385600083018461032a565b92915050565b60006020820190506103a060008301846102e9565b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fdfea2646970667358221220a837ec020bbd574c5f7eee25cdc893392fe442864fe6ae0b7254572b0f9e02ed64736f6c634300080e0033",
-  "deployedBytecode": "0x60806040526004361061003f5760003560e01c806350b447121461004457806367dd74ca146100835780638da5cb5b1461009f578063afbd1782146100ca575b600080fd5b34801561005057600080fd5b5061006b600480360381019061006691906102bc565b6100f5565b60405161007a93929190610339565b60405180910390f35b61009d600480360381019061009891906102bc565b610145565b005b3480156100ab57600080fd5b506100b4610258565b6040516100c19190610370565b60405180910390f35b3480156100d657600080fd5b506100df61027c565b6040516100ec919061038b565b60405180910390f35b600181600a811061010557600080fd5b600302016000915090508060000154908060010154908060020160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905083565b600a81108015610156575060008110155b61015f57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff16600182600a811061018b5761018a6103a6565b5b6003020160020160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16146101d357600080fd5b600181600a81106101e7576101e66103a6565b5b60030201600101543410156101fb57600080fd5b33600182600a81106102105761020f6103a6565b5b6003020160020160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600a81565b600080fd5b6000819050919050565b61029981610286565b81146102a457600080fd5b50565b6000813590506102b681610290565b92915050565b6000602082840312156102d2576102d1610281565b5b60006102e0848285016102a7565b91505092915050565b6102f281610286565b82525050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000610323826102f8565b9050919050565b61033381610318565b82525050565b600060608201905061034e60008301866102e9565b61035b60208301856102e9565b610368604083018461032a565b949350505050565b6000602082019050610385600083018461032a565b92915050565b60006020820190506103a060008301846102e9565b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fdfea2646970667358221220a837ec020bbd574c5f7eee25cdc893392fe442864fe6ae0b7254572b0f9e02ed64736f6c634300080e0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"TOTAL_TICKETS\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"ticket_id\",\"type\":\"uint256\"}],\"name\":\"buyTicket\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"tickets\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"price\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Tickets.sol\":\"Tickets\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Tickets.sol\":{\"keccak256\":\"0x6c0d4c815d389db04bc0a87911b81b9949e5418ef187ae8e135f4e5f42df7fe3\",\"urls\":[\"bzz-raw://2bbb4e97765b44a054afa11c2ff98300f68d22a80b114ef271585fbcd2462147\",\"dweb:/ipfs/QmNRAW7DCtJ7Aj5B1MsVvJHD68jA91kDBGjCp28xT6gZKs\"]}},\"version\":1}",
+  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555034801561005057600080fd5b5060005b600b81101561012a57600a8161006a9190610169565b662386f26fc1000061007c91906101c3565b600182600b81106100905761008f6101f7565b5b600302016001018190555080600182600b81106100b0576100af6101f7565b5b60030201600001819055506000600182600b81106100d1576100d06101f7565b5b6003020160020160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506001816101239190610226565b9050610054565b5061027c565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600061017482610130565b915061017f83610130565b9250817fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff04831182151516156101b8576101b761013a565b5b828202905092915050565b60006101ce82610130565b91506101d983610130565b9250828210156101ec576101eb61013a565b5b828203905092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b600061023182610130565b915061023c83610130565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff038211156102715761027061013a565b5b828201905092915050565b61040b8061028b6000396000f3fe60806040526004361061003f5760003560e01c806350b447121461004457806367dd74ca146100835780638da5cb5b1461009f578063afbd1782146100ca575b600080fd5b34801561005057600080fd5b5061006b600480360381019061006691906102bc565b6100f5565b60405161007a93929190610339565b60405180910390f35b61009d600480360381019061009891906102bc565b610145565b005b3480156100ab57600080fd5b506100b4610258565b6040516100c19190610370565b60405180910390f35b3480156100d657600080fd5b506100df61027c565b6040516100ec919061038b565b60405180910390f35b600181600b811061010557600080fd5b600302016000915090508060000154908060010154908060020160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905083565b600b81108015610156575060008110155b61015f57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff16600182600b811061018b5761018a6103a6565b5b6003020160020160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16146101d357600080fd5b600181600b81106101e7576101e66103a6565b5b60030201600101543410156101fb57600080fd5b33600182600b81106102105761020f6103a6565b5b6003020160020160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600b81565b600080fd5b6000819050919050565b61029981610286565b81146102a457600080fd5b50565b6000813590506102b681610290565b92915050565b6000602082840312156102d2576102d1610281565b5b60006102e0848285016102a7565b91505092915050565b6102f281610286565b82525050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000610323826102f8565b9050919050565b61033381610318565b82525050565b600060608201905061034e60008301866102e9565b61035b60208301856102e9565b610368604083018461032a565b949350505050565b6000602082019050610385600083018461032a565b92915050565b60006020820190506103a060008301846102e9565b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fdfea2646970667358221220806c9b6002507b12e9afa7a6ba3ca9eda7fdb2c9a42a56c0c73a5d25178ec96c64736f6c634300080e0033",
+  "deployedBytecode": "0x60806040526004361061003f5760003560e01c806350b447121461004457806367dd74ca146100835780638da5cb5b1461009f578063afbd1782146100ca575b600080fd5b34801561005057600080fd5b5061006b600480360381019061006691906102bc565b6100f5565b60405161007a93929190610339565b60405180910390f35b61009d600480360381019061009891906102bc565b610145565b005b3480156100ab57600080fd5b506100b4610258565b6040516100c19190610370565b60405180910390f35b3480156100d657600080fd5b506100df61027c565b6040516100ec919061038b565b60405180910390f35b600181600b811061010557600080fd5b600302016000915090508060000154908060010154908060020160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905083565b600b81108015610156575060008110155b61015f57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff16600182600b811061018b5761018a6103a6565b5b6003020160020160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16146101d357600080fd5b600181600b81106101e7576101e66103a6565b5b60030201600101543410156101fb57600080fd5b33600182600b81106102105761020f6103a6565b5b6003020160020160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600b81565b600080fd5b6000819050919050565b61029981610286565b81146102a457600080fd5b50565b6000813590506102b681610290565b92915050565b6000602082840312156102d2576102d1610281565b5b60006102e0848285016102a7565b91505092915050565b6102f281610286565b82525050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000610323826102f8565b9050919050565b61033381610318565b82525050565b600060608201905061034e60008301866102e9565b61035b60208301856102e9565b610368604083018461032a565b949350505050565b6000602082019050610385600083018461032a565b92915050565b60006020820190506103a060008301846102e9565b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fdfea2646970667358221220806c9b6002507b12e9afa7a6ba3ca9eda7fdb2c9a42a56c0c73a5d25178ec96c64736f6c634300080e0033",
   "immutableReferences": {},
   "generatedSources": [
     {
@@ -2200,9 +2200,9 @@
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "76:865:1:-:0;;;128:10;105:33;;;;;;;;;;;;;;;;;;;;359:247;;;;;;;;;;413:6;409:188;303:2;425:1;:17;409:188;;;493:2;491:1;:4;;;;:::i;:::-;484;:11;;;;:::i;:::-;465:7;473:1;465:10;;;;;;;:::i;:::-;;;;;:16;;:30;;;;538:1;522:7;530:1;522:10;;;;;;;:::i;:::-;;;;;:13;;:17;;;;581:3;554:7;562:1;554:10;;;;;;;:::i;:::-;;;;;:16;;;:31;;;;;;;;;;;;;;;;;;448:1;444:5;;;;;:::i;:::-;;;409:188;;;;76:865;;7:77:2;44:7;73:5;62:16;;7:77;;;:::o;90:180::-;138:77;135:1;128:88;235:4;232:1;225:15;259:4;256:1;249:15;276:348;316:7;339:20;357:1;339:20;:::i;:::-;334:25;;373:20;391:1;373:20;:::i;:::-;368:25;;561:1;493:66;489:74;486:1;483:81;478:1;471:9;464:17;460:105;457:131;;;568:18;;:::i;:::-;457:131;616:1;613;609:9;598:20;;276:348;;;;:::o;630:191::-;670:4;690:20;708:1;690:20;:::i;:::-;685:25;;724:20;742:1;724:20;:::i;:::-;719:25;;763:1;760;757:8;754:34;;;768:18;;:::i;:::-;754:34;813:1;810;806:9;798:17;;630:191;;;;:::o;827:180::-;875:77;872:1;865:88;972:4;969:1;962:15;996:4;993:1;986:15;1013:305;1053:3;1072:20;1090:1;1072:20;:::i;:::-;1067:25;;1106:20;1124:1;1106:20;:::i;:::-;1101:25;;1260:1;1192:66;1188:74;1185:1;1182:81;1179:107;;;1266:18;;:::i;:::-;1179:107;1310:1;1307;1303:9;1296:16;;1013:305;;;;:::o;76:865:1:-;;;;;;;",
-  "deployedSourceMap": "76:865:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;314:36;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;;;:::i;:::-;;;;;;;;649:287;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;105:33;;;;;;;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;266:39;;;;;;;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;314:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;649:287::-;303:2;719:9;:25;:43;;;;;761:1;748:9;:14;;719:43;711:52;;;;;;818:3;782:40;;:7;790:9;782:18;;;;;;;:::i;:::-;;;;;:24;;;;;;;;;;;;:40;;;774:49;;;;;;855:7;863:9;855:18;;;;;;;:::i;:::-;;;;;:24;;;842:9;:37;;834:46;;;;;;918:10;891:7;899:9;891:18;;;;;;;:::i;:::-;;;;;:24;;;:37;;;;;;;;;;;;;;;;;;649:287;:::o;105:33::-;;;;;;;;;;;;:::o;266:39::-;303:2;266:39;:::o;88:117:2:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:329::-;749:6;798:2;786:9;777:7;773:23;769:32;766:119;;;804:79;;:::i;:::-;766:119;924:1;949:53;994:7;985:6;974:9;970:22;949:53;:::i;:::-;939:63;;895:117;690:329;;;;:::o;1025:118::-;1112:24;1130:5;1112:24;:::i;:::-;1107:3;1100:37;1025:118;;:::o;1149:126::-;1186:7;1226:42;1219:5;1215:54;1204:65;;1149:126;;;:::o;1281:96::-;1318:7;1347:24;1365:5;1347:24;:::i;:::-;1336:35;;1281:96;;;:::o;1383:118::-;1470:24;1488:5;1470:24;:::i;:::-;1465:3;1458:37;1383:118;;:::o;1507:442::-;1656:4;1694:2;1683:9;1679:18;1671:26;;1707:71;1775:1;1764:9;1760:17;1751:6;1707:71;:::i;:::-;1788:72;1856:2;1845:9;1841:18;1832:6;1788:72;:::i;:::-;1870;1938:2;1927:9;1923:18;1914:6;1870:72;:::i;:::-;1507:442;;;;;;:::o;1955:222::-;2048:4;2086:2;2075:9;2071:18;2063:26;;2099:71;2167:1;2156:9;2152:17;2143:6;2099:71;:::i;:::-;1955:222;;;;:::o;2183:::-;2276:4;2314:2;2303:9;2299:18;2291:26;;2327:71;2395:1;2384:9;2380:17;2371:6;2327:71;:::i;:::-;2183:222;;;;:::o;2411:180::-;2459:77;2456:1;2449:88;2556:4;2553:1;2546:15;2580:4;2577:1;2570:15",
-  "source": "pragma solidity >= 0.4.22 <0.9.0;\r\n\r\n//uint constant TOTAL_TICKETS = 10;\r\n\r\ncontract Tickets{\r\n    \r\n    address public owner = msg.sender;\r\n\r\n    //Create Ticket Object\r\n    struct Ticket {\r\n        uint id;\r\n        uint price;\r\n        address owner;\r\n    }\r\n    uint constant public TOTAL_TICKETS = 10;\r\n\r\n    Ticket[TOTAL_TICKETS] public tickets;\r\n\r\n    constructor(){\r\n        //Create tickets\r\n        for(uint i = 0; i < TOTAL_TICKETS; i+= 1){\r\n            tickets[i].price = 1e16 - i*10; //.01 Ether\r\n            tickets[i].id = i;\r\n            tickets[i].owner = address(0x0);\r\n        }\r\n\r\n    }\r\n\r\n    //function for buying tickets\r\n    function buyTicket(uint ticket_id) external payable{\r\n        require(ticket_id < TOTAL_TICKETS && ticket_id >= 0);\r\n        require(tickets[ticket_id].owner == address(0x0));\r\n        require(msg.value >= tickets[ticket_id].price);\r\n        tickets[ticket_id].owner = msg.sender;\r\n    }\r\n\r\n}",
+  "sourceMap": "76:911:1:-:0;;;128:10;105:33;;;;;;;;;;;;;;;;;;;;359:247;;;;;;;;;;413:6;409:188;303:2;425:1;:17;409:188;;;493:2;491:1;:4;;;;:::i;:::-;484;:11;;;;:::i;:::-;465:7;473:1;465:10;;;;;;;:::i;:::-;;;;;:16;;:30;;;;538:1;522:7;530:1;522:10;;;;;;;:::i;:::-;;;;;:13;;:17;;;;581:3;554:7;562:1;554:10;;;;;;;:::i;:::-;;;;;:16;;;:31;;;;;;;;;;;;;;;;;;448:1;444:5;;;;;:::i;:::-;;;409:188;;;;76:911;;7:77:2;44:7;73:5;62:16;;7:77;;;:::o;90:180::-;138:77;135:1;128:88;235:4;232:1;225:15;259:4;256:1;249:15;276:348;316:7;339:20;357:1;339:20;:::i;:::-;334:25;;373:20;391:1;373:20;:::i;:::-;368:25;;561:1;493:66;489:74;486:1;483:81;478:1;471:9;464:17;460:105;457:131;;;568:18;;:::i;:::-;457:131;616:1;613;609:9;598:20;;276:348;;;;:::o;630:191::-;670:4;690:20;708:1;690:20;:::i;:::-;685:25;;724:20;742:1;724:20;:::i;:::-;719:25;;763:1;760;757:8;754:34;;;768:18;;:::i;:::-;754:34;813:1;810;806:9;798:17;;630:191;;;;:::o;827:180::-;875:77;872:1;865:88;972:4;969:1;962:15;996:4;993:1;986:15;1013:305;1053:3;1072:20;1090:1;1072:20;:::i;:::-;1067:25;;1106:20;1124:1;1106:20;:::i;:::-;1101:25;;1260:1;1192:66;1188:74;1185:1;1182:81;1179:107;;;1266:18;;:::i;:::-;1179:107;1310:1;1307;1303:9;1296:16;;1013:305;;;;:::o;76:911:1:-;;;;;;;",
+  "deployedSourceMap": "76:911:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;314:36;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;;;:::i;:::-;;;;;;;;649:287;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;105:33;;;;;;;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;266:39;;;;;;;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;314:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;649:287::-;303:2;719:9;:25;:43;;;;;761:1;748:9;:14;;719:43;711:52;;;;;;818:3;782:40;;:7;790:9;782:18;;;;;;;:::i;:::-;;;;;:24;;;;;;;;;;;;:40;;;774:49;;;;;;855:7;863:9;855:18;;;;;;;:::i;:::-;;;;;:24;;;842:9;:37;;834:46;;;;;;918:10;891:7;899:9;891:18;;;;;;;:::i;:::-;;;;;:24;;;:37;;;;;;;;;;;;;;;;;;649:287;:::o;105:33::-;;;;;;;;;;;;:::o;266:39::-;303:2;266:39;:::o;88:117:2:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:329::-;749:6;798:2;786:9;777:7;773:23;769:32;766:119;;;804:79;;:::i;:::-;766:119;924:1;949:53;994:7;985:6;974:9;970:22;949:53;:::i;:::-;939:63;;895:117;690:329;;;;:::o;1025:118::-;1112:24;1130:5;1112:24;:::i;:::-;1107:3;1100:37;1025:118;;:::o;1149:126::-;1186:7;1226:42;1219:5;1215:54;1204:65;;1149:126;;;:::o;1281:96::-;1318:7;1347:24;1365:5;1347:24;:::i;:::-;1336:35;;1281:96;;;:::o;1383:118::-;1470:24;1488:5;1470:24;:::i;:::-;1465:3;1458:37;1383:118;;:::o;1507:442::-;1656:4;1694:2;1683:9;1679:18;1671:26;;1707:71;1775:1;1764:9;1760:17;1751:6;1707:71;:::i;:::-;1788:72;1856:2;1845:9;1841:18;1832:6;1788:72;:::i;:::-;1870;1938:2;1927:9;1923:18;1914:6;1870:72;:::i;:::-;1507:442;;;;;;:::o;1955:222::-;2048:4;2086:2;2075:9;2071:18;2063:26;;2099:71;2167:1;2156:9;2152:17;2143:6;2099:71;:::i;:::-;1955:222;;;;:::o;2183:::-;2276:4;2314:2;2303:9;2299:18;2291:26;;2327:71;2395:1;2384:9;2380:17;2371:6;2327:71;:::i;:::-;2183:222;;;;:::o;2411:180::-;2459:77;2456:1;2449:88;2556:4;2553:1;2546:15;2580:4;2577:1;2570:15",
+  "source": "pragma solidity >= 0.4.22 <0.9.0;\r\n\r\n//uint constant TOTAL_TICKETS = 10;\r\n\r\ncontract Tickets{\r\n    \r\n    address public owner = msg.sender;\r\n\r\n    //Create Ticket Object\r\n    struct Ticket {\r\n        uint id;\r\n        uint price;\r\n        address owner;\r\n    }\r\n    uint constant public TOTAL_TICKETS = 11;\r\n\r\n    Ticket[TOTAL_TICKETS] public tickets;\r\n\r\n    constructor(){\r\n        //Create tickets\r\n        for(uint i = 0; i < TOTAL_TICKETS; i+= 1){\r\n            tickets[i].price = 1e16 - i*10; //.01 Ether\r\n            tickets[i].id = i;\r\n            tickets[i].owner = address(0x0);\r\n        }\r\n\r\n    }\r\n\r\n    //function for buying tickets\r\n    function buyTicket(uint ticket_id) external payable{\r\n        require(ticket_id < TOTAL_TICKETS && ticket_id >= 0);\r\n        require(tickets[ticket_id].owner == address(0x0));\r\n        require(msg.value >= tickets[ticket_id].price);\r\n        tickets[ticket_id].owner = msg.sender;\r\n    }\r\n\r\n    //function ticket_length() public {    }\r\n}",
   "sourcePath": "C:\\Users\\imani\\Documents\\GitHub\\Training\\blockchain\\tutorial_new\\contracts\\Tickets.sol",
   "ast": {
     "absolutePath": "project:/contracts/Tickets.sol",
@@ -2419,7 +2419,7 @@
               }
             },
             "value": {
-              "hexValue": "3130",
+              "hexValue": "3131",
               "id": 47,
               "isConstant": false,
               "isLValue": false,
@@ -2429,10 +2429,10 @@
               "nodeType": "Literal",
               "src": "303:2:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_rational_10_by_1",
-                "typeString": "int_const 10"
+                "typeIdentifier": "t_rational_11_by_1",
+                "typeString": "int_const 11"
               },
-              "value": "10"
+              "value": "11"
             },
             "visibility": "public"
           },
@@ -2449,8 +2449,8 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$10_storage",
-              "typeString": "struct Tickets.Ticket[10]"
+              "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$11_storage",
+              "typeString": "struct Tickets.Ticket[11]"
             },
             "typeName": {
               "baseType": {
@@ -2486,8 +2486,8 @@
               "nodeType": "ArrayTypeName",
               "src": "314:21:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$10_storage_ptr",
-                "typeString": "struct Tickets.Ticket[10]"
+                "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$11_storage_ptr",
+                "typeString": "struct Tickets.Ticket[11]"
               }
             },
             "visibility": "public"
@@ -2521,8 +2521,8 @@
                                 "referencedDeclaration": 53,
                                 "src": "465:7:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$10_storage",
-                                  "typeString": "struct Tickets.Ticket storage ref[10] storage ref"
+                                  "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$11_storage",
+                                  "typeString": "struct Tickets.Ticket storage ref[11] storage ref"
                                 }
                               },
                               "id": 69,
@@ -2672,8 +2672,8 @@
                                 "referencedDeclaration": 53,
                                 "src": "522:7:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$10_storage",
-                                  "typeString": "struct Tickets.Ticket storage ref[10] storage ref"
+                                  "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$11_storage",
+                                  "typeString": "struct Tickets.Ticket storage ref[11] storage ref"
                                 }
                               },
                               "id": 80,
@@ -2755,8 +2755,8 @@
                                 "referencedDeclaration": 53,
                                 "src": "554:7:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$10_storage",
-                                  "typeString": "struct Tickets.Ticket storage ref[10] storage ref"
+                                  "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$11_storage",
+                                  "typeString": "struct Tickets.Ticket storage ref[11] storage ref"
                                 }
                               },
                               "id": 87,
@@ -3223,8 +3223,8 @@
                               "referencedDeclaration": 53,
                               "src": "782:7:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$10_storage",
-                                "typeString": "struct Tickets.Ticket storage ref[10] storage ref"
+                                "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$11_storage",
+                                "typeString": "struct Tickets.Ticket storage ref[11] storage ref"
                               }
                             },
                             "id": 116,
@@ -3425,8 +3425,8 @@
                               "referencedDeclaration": 53,
                               "src": "855:7:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$10_storage",
-                                "typeString": "struct Tickets.Ticket storage ref[10] storage ref"
+                                "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$11_storage",
+                                "typeString": "struct Tickets.Ticket storage ref[11] storage ref"
                               }
                             },
                             "id": 130,
@@ -3531,8 +3531,8 @@
                           "referencedDeclaration": 53,
                           "src": "891:7:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$10_storage",
-                            "typeString": "struct Tickets.Ticket storage ref[10] storage ref"
+                            "typeIdentifier": "t_array$_t_struct$_Ticket_$45_storage_$11_storage",
+                            "typeString": "struct Tickets.Ticket storage ref[11] storage ref"
                           }
                         },
                         "id": 137,
@@ -3669,11 +3669,11 @@
           }
         ],
         "scope": 146,
-        "src": "76:865:1",
+        "src": "76:911:1",
         "usedErrors": []
       }
     ],
-    "src": "0:941:1"
+    "src": "0:987:1"
   },
   "compiler": {
     "name": "solc",
@@ -3683,12 +3683,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xab238A13934A50057D71295FAA124537e73830d7",
-      "transactionHash": "0x48744e5630d0cb4752b332ff62596d084193d5839c1313809ad42ae6aa847113"
+      "address": "0x6327Ea23Dde2a0E016397Bf04a805Ad1A3753ce6",
+      "transactionHash": "0x777d29b875b06b217fc5054512793358a10107141d536b99cb1248dcb7a96ebd"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-07-13T20:36:06.817Z",
+  "updatedAt": "2022-07-14T00:14:06.230Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

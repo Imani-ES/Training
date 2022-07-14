@@ -16,12 +16,14 @@ const tickets_El = document.getElementById('tickets');
 const refreshTickets = async () => {
     tickets_El.innerHTML = "Fetching Tickets..."
     
-    const TOTAL_TICKETS = await contract.methods.TOTAL_TICKETS;
+    //not sure how to attain TotalTickets
+    const TOTAL_TICKETS = await contract.methods.TOTAL_TICKETS.call();
     console.log(TOTAL_TICKETS)
 
     for (let i = 0; i< 10; i++){
         const t = await contract.methods.tickets(i).call();
-        console.log("Got ticket" + t)        
+        console.log("Got ticket" + t)  
+        //add into tickets_EL      
     }
 }
 const main = async () => {
